@@ -1,34 +1,14 @@
-﻿Сборка начата 10.03.2020 10:32:37.
-     1>Проект "C:\Users\itki_07_427\Desktop\SystemProgramming\SystemProgramming\SystemProgramming.vcxproj" в узле 2 (целевые объекты Rebuild).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SystemProgramming.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SystemProgramming.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Processor.cpp SystemProgramming.cpp
-         SystemProgramming.cpp
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(10): error C2059: синтаксическая ошибка: {
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(10): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2065: String: необъявленный идентификатор
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".valueOf" должно представлять класс, структуру или объединение
-                 тип: unknown-type
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2065: Math: необъявленный идентификатор
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".abs" должно представлять класс, структуру или объединение
-                 тип: unknown-type
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".length" должно представлять класс, структуру или объединение
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
-         Processor.cpp
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(10): error C2059: синтаксическая ошибка: {
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(10): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2065: String: необъявленный идентификатор
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".valueOf" должно представлять класс, структуру или объединение
-                 тип: unknown-type
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2065: Math: необъявленный идентификатор
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".abs" должно представлять класс, структуру или объединение
-                 тип: unknown-type
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): error C2228: выражение слева от ".length" должно представлять класс, структуру или объединение
-     1>c:\users\itki_07_427\desktop\systemprogramming\systemprogramming\processor.h(26): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
-         Создание кода...
-     1>Сборка проекта "C:\Users\itki_07_427\Desktop\SystemProgramming\SystemProgramming\SystemProgramming.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
-
-Ошибка сборки.
-
-Затраченное время: 00:00:00.63
+﻿  Processor.cpp
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(13): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(76): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(73): warning C4101: count: неиспользованная локальная переменная
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(123): warning C4101: error_id: неиспользованная локальная переменная
+  SystemProgramming.cpp
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(13): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(76): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(73): warning C4101: count: неиспользованная локальная переменная
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(123): warning C4101: error_id: неиспользованная локальная переменная
+  Создание кода...
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(105): warning C4715: Processor::pr_inversion: значение возвращается не при всех путях выполнения
+E:\Git\System-programming-LAB-1\SystemProgramming\SystemProgramming\Processor.h(127): warning C4715: Processor::pr_mixing_register: значение возвращается не при всех путях выполнения
+  SystemProgramming.vcxproj -> E:\Git\System-programming-LAB-1\SystemProgramming\Debug\SystemProgramming.exe
